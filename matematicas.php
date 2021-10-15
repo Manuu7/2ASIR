@@ -58,7 +58,7 @@ function persona($nombre,$edad){
 
 function psesentea($nombre,$apellidos,$localidad){
 
-    echo "mi nombre es ".$nombre." ".$apellidos. "y soy de" .$localidad."<br>";
+    echo "mi nombre es ".$nombre." ".$apellidos. "y soy de" $localidad."<br>";
 }
 
 function suma($num1,$num2){
