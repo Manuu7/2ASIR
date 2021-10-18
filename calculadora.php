@@ -39,7 +39,7 @@ Button {
         <input type="Button" name="cubo³" value=" cubo³ " onclick="calcula('³')">
         <input type="Button" name="Elevar" value=" Elevar " onclick="calcula('')">
         <input type="Button" name="Fibonucci" value=" Fibonucci " onclick="calcula('')"><br><br>
-        <input type="Button" name="" value="resolver"><br><br><br>
+        <input type="Button" name="Resolver" value="resolver"><br><br><br>
         <h3>Resultado</h3><br><br>
 
 
@@ -148,9 +148,9 @@ fivo(10);
 
 #Funcion Get y Post
 
+
+
+
 ?>
-
-
-
 </body>
 </html>
