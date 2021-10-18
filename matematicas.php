@@ -102,8 +102,9 @@ echo count($alumnos)."<br>";
 
 $selectAleatorio = rand(0,5);
 
-echo "El alumno es: ".$alumnos[$selectAleatorio]."<br>";
 
+echo "El alumno es: ".$alumnos[$selectAleatorio]."<br>";
+echo ""
 
 
 ?>
