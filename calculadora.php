@@ -29,17 +29,17 @@ Button {
         
          <input type="text" name="2ºApellido"><br><br><br>
         <label>operaciones</label><br><br><br> 
-        <input type="Button" name="" value=" + " onclick="calcula('+')"> 
-        <input type="Button" name="" value=" - " onclick="calcula('-')">
-        <input type="Button" name="" value=" X " onclick="calcula('*')"> 
-        <input type="Button" name="" value=" / " onclick="calcula('/')">  
-        <input type="Button" name="" value=" % " onclick="calcula('/')"><br><br><br> 
-        <input type="Button" name="raiz cuadrada" value=" raiz cuadrada " onclick="calcula('√')">
-        <input type="Button" name="cuadrado²" value=" cuadrado² " onclick="calcula('²')">
-        <input type="Button" name="cubo³" value=" cubo³ " onclick="calcula('³')">
-        <input type="Button" name="Elevar" value=" Elevar " onclick="calcula('')">
-        <input type="Button" name="Fibonucci" value=" Fibonucci " onclick="calcula('')"><br><br>
-        <input type="Button" name="Resolver" value="resolver"><br><br><br>
+        <input type="Button" name="operador" value="+"> 
+        <input type="Button" name="operador" value="-">
+        <input type="Button" name="operador" value="X"> 
+        <input type="Button" name="operador" value="/">  
+        <input type="Button" name="operador" value="%"><br><br><br> 
+        <input type="Button" name="operador" value="raiz cuadrada">
+        <input type="Button" name="operador" value="cuadrado²">
+        <input type="Button" name="operador" value="cubo³">
+        <input type="Button" name="operador" value="Elevar">
+        <input type="Button" name="operador" value="Fibonucci"><br><br>
+        <input type="Button" name="operador" value="resolver"><br><br><br>
         <h3>Resultado</h3><br><br>
 
 
@@ -47,8 +47,7 @@ Button {
 
 <?php
 
-$num1=20;
-$num2=10;
+
 
 #Funcion Suma
 function suma($num1,$num2){
