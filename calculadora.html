@@ -7,18 +7,30 @@
     <title>Calculadora ASIR</title>
 </head>
 <body>
-    <form action="calculadora2.php" method="post" target="_blank"> 
+    
         <fieldset>
             <legend>Calculadora ASIR</legend>
-        <input type="Text" name="operando1" value="0" size="12"> 
+            <form action="calculadora2.php" method="post" target="_blank"> 
+        <input type="Text" name="operando1" value="" size="12"> 
         <br> 
-        <input type="Text" name="operando2" value="0" size="12"> 
+        <input type="Text" name="operando2" value="" size="12"> 
         <br> 
-        <input type="Button" name="operador" value="+"> 
-        <input type="Button" name="operador" value="-"> 
-        <input type="Button" name="operador" value="X"> 
-        <input type="Button" name="operador" value="/"> 
+        <select name="operador">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicaion">Multiplicacion</option>
+            <option value="division">Division</option>
+            <option value="raiz cuadrada">raiz cuadrada</option>
+            <option value="elevar cuadrado">elevar cuadrado</option>
+            <option value="elevar cubo">elevar cubo</option>
+            <option value="elevar">elevar</option>
+        </select>
+        <input type="reset" name="reset"/>
+        <input type="submit" name="Enviar"/>
+
         <br> 
+        
+        
         <!--<input type="Text" name="resultado" value="0" size="12">-->
     </fieldset>
         </form>
