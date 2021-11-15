@@ -94,12 +94,12 @@ echo "<br> Unión de arrays <br>";
 
 $union1con2=$coches1+$coches2;
 print_r($union1con2);
-echo ">br>";
+echo "<br>";
 
 
 $union1con2=$coches1+$coches2;
 print_r($union1con2);
-echo ">br>";
+echo "<br>";
 
 
 
@@ -123,7 +123,7 @@ $acumulador=array("Purpura","Marron","Celeste");
 
 array_push($colores2,"Purpura","Marron","Celeste");
 
-//$ordenarArray= sort($colores2,SORT_NATURAL);
+sort($colores2,SORT_NATURAL);
 print_r($resultadoDiferencia);
 echo "<br>";
 print_r($resultadoUnion);
@@ -132,7 +132,7 @@ print_r($resultadoInterseccion);
 echo "<br>";
 //print_r($ordenarArray);
 echo "<br>";
-//print_r($colores2);
+print_r($colores2);
 
 
 
