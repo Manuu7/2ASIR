@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+
+<form action="Examen.php" method="post" target="_blank"> 
+    <fieldset>
+        <legend>Conversor de numeros</legend>
+
+        <label>Opcion 1: Numero concreto</label><br>
+        <input type="text" name="operando1" required/>
+        <br><br><br>
+        
+        <label>Seleccione una conversion</label><br>
+        
+       
+
+        <select name="operador">
+
+            <option value="Decbin">decimal-binario</option>
+            <option value="Decoct">decimal-octal</option>
+            <option value="Dechex">decimal-hexadecimal</option>
+            <option value="Bindec">binario-decimal</option>
+            <option value="Ocdec">octal-decimal</option>
+            <option value="Hexdec">hexadecimal-decimal</option>
+        </select>
+
+        <input type="submit" value="Realizar conversion"/> 
+            <input type="Reset" value="Restablecer valores"/> 
+           
+
+    </form>
+
+</body>
+</html>
