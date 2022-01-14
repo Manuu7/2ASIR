@@ -1,6 +1,16 @@
 <?php
+include "constantes.php";
+//require "constantes2.php";
+
+echo GRAVEDAD;
+echo " La vida sigue";
+resta();
 
 
+
+
+
+/*
 #CONSTANTES
 $pi=pi();
 
@@ -162,9 +172,6 @@ for ($i=0; $i < ; $i++) {
     # code...
 }
 */
-
-
-
 
 
 
